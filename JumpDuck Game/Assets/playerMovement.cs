@@ -6,7 +6,7 @@ public class playerMovement : MonoBehaviour {
 	Vector3 velocity = Vector3.zero;
 	public Vector3 gravity;
 	public Vector3 jumpVelocity;
-	float forwardSpeed = 1f;
+	float forwardSpeed = 4f;
 
 	bool jump = false;
 	bool canJump = false;
@@ -21,11 +21,13 @@ public class playerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-	
+		//Jumping controls
 		if (transform.position.y == 0) {
-			if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButtonDown (0))
+			if (Input.GetKeyDown (KeyCode.UpArrow))
 				jump = true;
 		}
+
+
 	}
 	
 	void FixedUpdate() {

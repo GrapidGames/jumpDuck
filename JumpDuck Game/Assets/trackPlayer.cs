@@ -15,6 +15,7 @@ public class trackPlayer : MonoBehaviour {
 			Debug.LogError ("Couldn't find an boiject with tag 'Player'!");
 		}
 
+
 		player = player_go.transform;
 
 		offsetX = transform.position.x - player.position.x;
