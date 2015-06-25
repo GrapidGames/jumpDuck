@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BGLooper : MonoBehaviour {
-
+public class BGLooper : MonoBehaviour 
+{
 	int numBGPanels = 5;
-
-
-	void OnTriggerEnter2D(Collider2D collider){
+    
+	void OnTriggerEnter2D(Collider2D collider)
+    {
 		Debug.Log ("Triggered: " + collider.name);
 
 		float width = ((BoxCollider2D)collider).size.x;

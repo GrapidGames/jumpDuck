@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.JumpDuck Game.CSharp", "UnityVS.JumpDuck Game.CSharp.csproj", "{77504D6B-6665-DE88-FDBE-0A8FD64FFD78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77504D6B-6665-DE88-FDBE-0A8FD64FFD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77504D6B-6665-DE88-FDBE-0A8FD64FFD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77504D6B-6665-DE88-FDBE-0A8FD64FFD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77504D6B-6665-DE88-FDBE-0A8FD64FFD78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
